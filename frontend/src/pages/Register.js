@@ -3,6 +3,8 @@ import React from 'react';
 import Header from '../components/Header';
 import Login from '../components/Login';
 
+
+
 //Pages son componentes padres nos ayudan a indentificar las diferentes rutas
 
 export default function Register (){
@@ -31,7 +33,9 @@ export default function Register (){
   
        infoButton = "Iniciar Sesión" />
        <Login />
-     
+
+      
+
       </>
     )
 };

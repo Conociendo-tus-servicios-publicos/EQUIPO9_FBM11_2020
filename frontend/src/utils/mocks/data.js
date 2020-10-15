@@ -1,33 +1,33 @@
 export const data = [
     {
         id: 1,
-        tipoPago: "Free",
-        cost: "$0",
-        users: "10 users included",
-        storage: "2 GB of storage",
-        support: "Email support",
-        help: "Help center access",
-        buttonInfo: "Sing up for free"
+        tipoPago: "Buscar",
+        help: "Busca el sector o comuna en que estes ubicado@.",
+        buttonInfo: "Ingresar"
       },
 
       {
         id: 2,
-        tipoPago: "Pro",
-        cost: "$15",
-        users: "20 users included",
-        storage: "10 GB of storage",
-        support: "Priority email support",
-        help: "Help center access",
-        buttonInfo: "Get started"
+        tipoPago: "Sugerencias",
+        help: "Sugerencias para la pagina.",
+        buttonInfo: "Ingresar"
       },
       {
         id: 3,
-        tipoPago: "Enterprise",
-        cost: "$29",
-        users: "30 users included",
-        storage: "15 GB of storage",
-        support: "Phone and email support",
-        help: "Help center access",
-        buttonInfo: "Contact"
+        tipoPago: "Notas",
+        help: "Notas de la pagina.",
+        buttonInfo: "Ingresar"
+      },
+      {
+        id: 4,
+        tipoPago: "Informate",
+        help: "Informate de nuestra pagina.",
+        buttonInfo: "Ingresar"
+      },
+      {
+        id: 5,
+        tipoPago: "Fallas",
+        help: "Reposta las fallas de tu sector o comuna.",
+        buttonInfo: "Ingresar"
       },
 ]
