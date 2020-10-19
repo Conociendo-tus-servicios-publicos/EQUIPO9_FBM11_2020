@@ -1,0 +1,23 @@
+.principal h1{
+    color:#007bff;
+    text-align: center;
+}
+.principal img {
+    margin-top: 50px;
+   margin-left: 700px;
+}
+
+.parrafo{
+    display: flex;
+    padding: 70px 200px 0px 200px  ;
+   
+}
+.parrafo p{
+    font-size: 20px;
+}
+.parrafo img{
+    width: 500px;
+    height: 400px;
+    margin-left: 80px;
+    margin-top: 150px;
+}

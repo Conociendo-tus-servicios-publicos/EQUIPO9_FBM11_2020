@@ -10,20 +10,27 @@ const Layout = (props) => {
           companyName="Conociendo tus servicios públicos"
           navBar={[
            {
-             name:'Facebook',
-             url:'http://facebook.com'
+             name:'Buscar',
+             url:'/buscar'
+            
            },
            {
-             name:'Twitter',
-             url:'http://twitter.com'
+             name:'Fallas',
+            url:'/fallas'
            },
            {
-             name:'Instagram',
-             url:'http://instagram.com'
+             name:'Informate',
+             url:'/informate'
            },
            {
-             name:'Linkedin',
-             url:'http://linkedin.com'
+             name:'Sugerencias',
+             url:'/sugerencias'
+           
+           },
+           {
+            name:'Notas',
+            url:'/notas'
+            
            }
           ]}
      
