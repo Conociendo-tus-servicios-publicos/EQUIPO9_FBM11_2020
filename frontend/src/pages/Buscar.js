@@ -6,7 +6,7 @@ import cardpricing from '../components/CardPricing';
 function Buscar (){
     return (
         <div>
-
+ <h3>hola amigos</h3>
     </div>
 
     );
