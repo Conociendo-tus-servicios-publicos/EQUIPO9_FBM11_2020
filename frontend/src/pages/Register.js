@@ -14,20 +14,27 @@ export default function Register (){
        companyName="Conociendo tus servicios públicos"
        navBar={[
         {
-          name:'Facebook',
-          url:'http://facebook.com'
+          name:'Buscar',
+          url:'/Buscar'
+         
         },
         {
-          name:'Twitter',
-          url:'http://twitter.com'
+          name:'Fallas',
+         url:'/Fallas'
         },
         {
-          name:'Instagram',
-          url:'http://instagram.com'
+          name:'Informate',
+          url:'/Informate'
         },
         {
-          name:'Linkedin',
-          url:'http://linkedin.com'
+          name:'Sugerencias',
+          url:'/Sugerencias'
+        
+        },
+        {
+         name:'Notas',
+         url:'/Notas'
+         
         }
        ]}
   

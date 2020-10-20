@@ -10,7 +10,7 @@ class Login extends Component {
    <div className="container align-items-center mt-5 text-center">
     <form className="form-signin text-center align-items-center col -1">
     <img className="mb-4" src={Logo} alt="" width="72" height="72"/>
-    <h1 className="h3 mb-5 font-weight-normal text-center text-primary">Iniciar Sesión</h1>
+    <h1 className="h1 mb-5 font-weight-normal text-center text-primary">Iniciar Sesión</h1>
     <label for="inputEmail" className="sr-only mb-3">Correo electrónico</label>
     <input type="email" id="inputEmail" className="form-control mb-3" placeholder="Correo electrónico" required="@" autofocus=""/>
     <label for="inputPassword" className="sr-only">Contraseña</label>

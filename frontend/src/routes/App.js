@@ -5,11 +5,11 @@ import Register from '../pages/Register';
 import Principal from '../pages/Principal';
 import Layout from '../components/Layout';
 import Registro from '../components/Registro';
-import Buscar from '../pages/Buscar.js';
-import Fallas from '../pages/Fallas.js';
-import Informate from '../pages/Informate.js';
-import Sugerencias from '../pages/Sugerencias.js';
-import Notas from '../pages/Notas.js';
+import Buscar from '../pages/Buscar';
+import Fallas from '../pages/Fallas';
+import Informate from '../pages/Informate';
+import Sugerencias from '../pages/Sugerencias';
+import Notas from '../pages/Notas';
 
 
 
@@ -27,8 +27,7 @@ const App = () =>{
         <Layout>
          <Route exact path="/" component={Home} />
          <Route path="/principal" component={Principal} />
-        </Layout>
-        <Route path="/buscar">
+         <Route path="/buscar">
           <Buscar/>
         </Route>
         <Route path="/fallas">
@@ -43,6 +42,8 @@ const App = () =>{
         <Route path="/notas">
           <Notas/>
         </Route>
+        </Layout>
+       
 
 
         </Switch>

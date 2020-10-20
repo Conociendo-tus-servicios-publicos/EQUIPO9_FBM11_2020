@@ -1,15 +1,20 @@
 import React from 'react';
-import pricing from '../components/Pricing';
-import cardpricing from '../components/CardPricing';
+import Pricing from '../components/Pricing';
+import CardPricing from '../components/CardPricing'; 
+import Fallas from '../styles/fallas.css';
+import Logo from '../images/impag.png';
+   
 
-
-function Fallas (){
+const Fallam = ()=>{
     return (
         <div>
-<h3>informa las fallas</h3>
+          <section className="fallas">
+          <img className="logo" src={Logo}></img>
+          <h1>Fallas de los servicios públicos  </h1>
+        </section>
     </div>
 
     );
     
 }
-export default Fallas;
+export default Fallam;

@@ -11,31 +11,32 @@ const Layout = (props) => {
           navBar={[
            {
              name:'Buscar',
-             url:'/buscar'
+             url:'/Buscar'
             
            },
            {
              name:'Fallas',
-            url:'/fallas'
+            url:'/Fallas'
            },
            {
              name:'Informate',
-             url:'/informate'
+             url:'/Informate'
            },
            {
              name:'Sugerencias',
-             url:'/sugerencias'
+             url:'/Sugerencias'
            
            },
            {
             name:'Notas',
-            url:'/notas'
+            url:'/Notas'
             
            }
           ]}
      
           infoButton = "Iniciar Sesión"
         />
+
 
         {props.children}
 

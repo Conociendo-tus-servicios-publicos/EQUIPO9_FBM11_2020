@@ -41,7 +41,7 @@ class Footer extends Component {
                   <li><a className="text-muted" href="#">Privacy</a></li>
                   <li><a className="text-muted" href="#">Terms</a></li>
                 </ul>
-              </div>
+              </div>--!>
             </div>
           </footer>
           </div>
