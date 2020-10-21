@@ -1,4 +1,17 @@
 .informa h1{
     color: #007bff;
     text-align: center;
+  
+}
+.parrafo1{
+    padding: 70px 200px 0px 200px  ;
+    display: flex;
+}
+.informa{
+    padding: 70px 200px 0px 200px  ;
+   
+}
+
+.img{
+    display: flex;
 }

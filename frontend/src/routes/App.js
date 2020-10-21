@@ -12,12 +12,6 @@ import Sugerencias from '../pages/Sugerencias';
 import Notas from '../pages/Notas';
 
 
-
-
-
-
-
-
 const App = () =>{
     return(
       <BrowserRouter>

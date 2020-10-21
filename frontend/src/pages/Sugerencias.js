@@ -1,7 +1,7 @@
 import React from 'react';
-/*import pricing from '../components/Pricing';
+import pricing from '../components/Pricing';
 import cardpricing from '../components/CardPricing';
-import sugerencias from '../styles/sugerencias.css';*/
+import sugerencias from '../styles/sugerencias.css';
 import Logo from '../images/impag.png';
 
 function Sugerencias (){

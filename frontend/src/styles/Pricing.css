@@ -1,24 +1,64 @@
-.principal h1{
+ h1{
     color:#007bff;
-    text-align: center;
+    
+}
+.principal{
+    margin: auto;
 }
 .principal img {
-    margin-top: 50px;
-   margin-left: 623px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-left: 200px;
+    margin-bottom: 20px;
 }
+.principal h1{
+    color: #fff;
+
+}
+.principal {
+    border-bottom: 1px solid #fff ;
+}
+
 
 .parrafo{
     padding: 70px 200px 0px 200px  ;
-   
+}
+
+.parrafo h1{
+    text-align: center;
+    padding: 0px 0px 30px 0px;
 }
 .parrafo p{
     font-size: 20px;
 }
-.parrafo img{
+.imagenes{
     width: 400px;
     height: 300px;
     margin-left: 10px;
     margin-top: 10px;
-   
+    padding: 70px 200px 0px 200px  ;
+    display: flex;
+    
+}
+.imagenes{
+    margin: 70px 0px 180px 0px;
+}
+.principal-uno {
+    display: flex;
+        width: 100%;
+        height: 600px;
+        background: #076585;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, rgb(81, 11, 128), #0d2eaf), url(../images/Gas.jpg);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, rgb(81, 11, 128), #0d2eaf), url(../images/Gas.jpg);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background-size: cover;
+        background-attachment: fixed;
+        position: relative;
+        padding: 5px 50px 30px 50px;
+        flex-wrap: wrap;
+    
 }
 
