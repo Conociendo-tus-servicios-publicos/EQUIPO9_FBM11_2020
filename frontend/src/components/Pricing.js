@@ -10,7 +10,7 @@ const Pricing = () => {
     return (
         <div>
         <section className="principal">
-          <img className="logo" src={Logo}></img>
+          <img className="logo" src={Logo}/>
           <h1>Conociendo tus servicios públicos </h1>
         </section>
         <section className="parrafo">
@@ -24,9 +24,9 @@ Los consumidores y usuarios de servicios públicos están protegidos por la Ley 
            </section>
            <section>
              
-          <img className="Luz" src={Luz}></img>
-          <img className="Agua" src={Agua}></img>
-          <img className="Gas" src={Gas}></img>
+          <img className="Luz" src={Luz}/>
+          <img className="Agua" src={Agua}/>
+          <img className="Gas" src={Gas}/>
 
            </section>
       </div>
