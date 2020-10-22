@@ -4,7 +4,7 @@
   
 }
 .parrafo1{
-    padding: 70px 200px 0px 200px  ;
+    padding: 40px 200px 0px 200px  ;
     display: flex;
 }
 .informa{
@@ -13,5 +13,14 @@
 }
 
 .img{
+    width: 400px;
+    height: 300px;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 20px -10px 10px 20px  ;
+    
     display: flex;
+}
+.img{
+    margin: -40px 0px 180px 100px;
 }

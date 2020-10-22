@@ -2,3 +2,41 @@
     color: #007bff;
     text-align: center;
 }
+.comentario {
+    
+    margin: 0px 500px 0px 480px;
+    flex-wrap: wrap;
+}
+.comentario input[type="text"]{
+    width: 400px;
+    height: 400px;
+    background: rgba(44, 101, 207, 0.466);
+    border-radius: 10px;
+    border: none;
+    box-shadow: 5px 5px 3px 1px rgba(104, 102, 102, 0.781);
+
+  
+}
+.comentario input[type="submit"]{
+    margin: 20px 700px 0px 620px;
+    width: 130px;
+    height: 40px;
+    border-radius: 30px;
+    background: #007bff;
+    border: none;
+    box-shadow: 4px 4px 3px 1px rgba(104, 102, 102, 0.781);
+    color: #ffff;
+}
+.sugerir h3{
+    text-align: center;
+}
+
+h1{
+    color:#007bff;
+    
+}
+
+
+
+
+
