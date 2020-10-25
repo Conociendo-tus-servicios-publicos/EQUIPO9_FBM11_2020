@@ -5,9 +5,11 @@ import Luz from '../images/luz.jpg';
 import Gas from '../images/Gas.jpg';
 import '../styles/Pricing.css';
 
+
 const Pricing = () => {
 
-    return (
+    return ( <> 
+     
         <div>
           <section className="principal-uno">
           <section className="principal">
@@ -33,11 +35,12 @@ const Pricing = () => {
               <img className="Agua" src={Agua}/>
               <img className="Gas" src={Gas}/>
            </section>
-
+             
           
         
       </div>
-    )
-};
+      </>
+    );
+}
 
 export default Pricing;

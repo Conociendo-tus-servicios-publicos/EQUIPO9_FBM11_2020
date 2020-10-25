@@ -95,8 +95,7 @@ class CardImages extends Component {
               
               <div className="d-flex justify-content-between align-items-center">
                 <div className="btn-group">
-                  <button type="button" className="btn btn-sm btn-outline-secondary">View</button>
-                  
+                <Link to='/botonAdministrador'><button type="button" className="btn btn-sm btn-outline-secondary">Administrador</button></Link>
                 </div>
                 
               </div>

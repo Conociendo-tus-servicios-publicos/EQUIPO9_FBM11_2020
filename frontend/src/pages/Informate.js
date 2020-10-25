@@ -1,6 +1,6 @@
 import React from 'react';
-//import Pricing from '../components/Pricing';
-//import Cardpricing from '../components/CardPricing';
+import Pricing from '../components/Pricing';
+import Cardpricing from '../components/CardPricing';
 import  '../styles/informate.css';
 import energiainfo from'../images/energiainfo.jpg';
 import Gasinfo from '../images/Gasinfo.jpg';

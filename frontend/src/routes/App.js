@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { BrowserRouter, Switch, Route, Router } from 'react-router-dom';
 import Home from '../pages/Home';
 import Register from '../pages/Register';
 import Principal from '../pages/Principal';
@@ -10,6 +10,9 @@ import Fallas from '../pages/Fallas';
 import Informate from '../pages/Informate';
 import Sugerencias from '../pages/Sugerencias';
 import Notas from '../pages/Notas';
+import Administrador from '../pages/Administrador';
+
+
 
 
 const App = () =>{
@@ -35,12 +38,14 @@ const App = () =>{
         </Route>
         <Route path="/notas" >
           <Notas/>
+        
         </Route>
         <Route path="/botonbuscar" component={Buscar} />
         <Route path="/botonSugerencias" component={Sugerencias} />
         <Route path="/botonInformate" component={Informate} />
         <Route path="/botonFallas" component={Fallas} />
         <Route path="/botonNotas" component={Notas} />
+        <Route path="/botonAdministrador" component={Administrador} />
         </Layout>
        
 

@@ -4,12 +4,12 @@ import CardPricing from '../components/CardPricing';
 import notas from '../styles/notas.css';
 import Logo from '../images/impag.png';
 
-//<img className="logo" src={Logo}/>
+
 function Notas () {
   return (
   <div>
     <section className="notas">
-          
+    
           <h1>Notas</h1>
           <div className="table-responsive">
           

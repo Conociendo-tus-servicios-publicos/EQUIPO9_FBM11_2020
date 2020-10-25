@@ -1,12 +1,14 @@
 import React from 'react';
 import pricing from '../components/Pricing';
 import cardpricing from '../components/CardPricing';
-import buscar from '../styles/buscar.css';
+import '../styles/Buscar.css';
 import Logo from '../images/impag.png';
 import Luz from '../images/luz.jpg';
-import Agua from '../images/aguas.jpg';
+import aguas from '../images/aguas.jpg';
 
-function Buscar (){
+
+
+function Buscar (props){
     return (
         <div>
              <section className="buscar">
@@ -24,7 +26,7 @@ function Buscar (){
     </section>
 
     <section className="parrafo img">
-    <img className="Aguas" src={Agua}/>
+    <img className="Aguas" src={aguas}/>
       
     </section>
     </div>
