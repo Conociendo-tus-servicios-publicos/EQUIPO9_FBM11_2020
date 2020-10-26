@@ -21,10 +21,9 @@ class Administrador extends Component {
     <input type="password" id="inputusers" className="form-control mb-3 " placeholder="Codigo" required=""/>
     <div className="checkbox mb-3">
     </div>
-    <Link to="" className="text-decoration-none">
+    <Link to="/menuadmin" className="text-decoration-none">
     <button className="btn btn-lg btn-primary btn-flex mb-3 col-6" type="submit">Ingresar</button>
     </Link>
-    
     </form>
   </div>
           );

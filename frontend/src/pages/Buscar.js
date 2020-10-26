@@ -1,14 +1,14 @@
 import React from 'react';
 import pricing from '../components/Pricing';
 import cardpricing from '../components/CardPricing';
-import '../styles/Buscar.css';
+import buscar from '../styles/buscar.css';
 import Logo from '../images/impag.png';
 import Luz from '../images/luz.jpg';
 import aguas from '../images/aguas.jpg';
 
 
 
-function Buscar (props){
+function Buscar (){
     return (
         <div>
              <section className="buscar">

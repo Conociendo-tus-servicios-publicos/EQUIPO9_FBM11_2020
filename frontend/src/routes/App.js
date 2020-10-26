@@ -11,6 +11,7 @@ import Informate from '../pages/Informate';
 import Sugerencias from '../pages/Sugerencias';
 import Notas from '../pages/Notas';
 import Administrador from '../pages/Administrador';
+import menuadmin from '../pages/menuadmin';
 
 
 
@@ -46,9 +47,11 @@ const App = () =>{
         <Route path="/botonFallas" component={Fallas} />
         <Route path="/botonNotas" component={Notas} />
         <Route path="/botonAdministrador" component={Administrador} />
+        
         </Layout>
-       
-
+        <Layout>
+        <Route path="/menuadmin" component={menuadmin} />
+        </Layout>
 
         </Switch>
       </BrowserRouter>
