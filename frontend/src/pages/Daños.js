@@ -3,11 +3,10 @@ import CardImages2 from '../components/CardImages2';
 import Pricing from '../components/Pricing';
 import Cardpricing from '../components/CardPricing';
 
-
-function menuadmin () {
+function Daños () {
     return(
-     <CardImages2 />
+        <CardImages2 />
     )
 }
 
-export default menuadmin;
+export default Daños;

@@ -12,7 +12,9 @@ import Sugerencias from '../pages/Sugerencias';
 import Notas from '../pages/Notas';
 import Administrador from '../pages/Administrador';
 import menuadmin from '../pages/menuadmin';
-
+import Daños from '../pages/Daños';
+import Bloquear from '../pages/Bloquear';
+import elimensajes from '../pages/elimensajes';
 
 
 
@@ -22,6 +24,7 @@ const App = () =>{
         <Switch>
         <Route exact path="/iniciosesion" component={Register} />
         <Route exact path="/Registro" component={Registro} />
+        
         <Layout>
          <Route exact path="/" component={Home} />
          <Route path="/principal" component={Principal} />
@@ -47,11 +50,15 @@ const App = () =>{
         <Route path="/botonFallas" component={Fallas} />
         <Route path="/botonNotas" component={Notas} />
         <Route path="/botonAdministrador" component={Administrador} />
+
+        <Route path="/botonDloquear" component={Bloquear} />
+        <Route path="/botonDDaños" component={Daños} />
+        <Route path="/botonDlimensajes" component={elimensajes} />
+        <Route path="/menuadmin" component={menuadmin} />
+        
         
         </Layout>
-        <Layout>
-        <Route path="/menuadmin" component={menuadmin} />
-        </Layout>
+        
 
         </Switch>
       </BrowserRouter>
