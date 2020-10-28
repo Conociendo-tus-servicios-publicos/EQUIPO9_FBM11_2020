@@ -1,7 +1,11 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-
-
+import buscar from '../images/buscar.png';
+import sugerencias from '../images/sugerencias.png';
+import fallas from '../images/fallas.png';
+import informate from '../images/informate.png';
+import notas from '../images/notas.png';
+import administrador from '../images/administrador.png';
 class CardImages extends Component {
     constructor(props) {
         super(props);
@@ -15,7 +19,8 @@ class CardImages extends Component {
       <div className="row">
         <div className="col-md-4">
           <div className="card mb-4 shadow-sm">
-            <svg className="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></svg>
+          <img className="mb-4" src={buscar} alt="" width="150" height="150"/>
+         
             <div className="card-body">
               
               <div className="d-flex justify-content-between align-items-center">
@@ -30,7 +35,7 @@ class CardImages extends Component {
         </div>
         <div className="col-md-4">
           <div className="card mb-4 shadow-sm">
-            <svg className="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></svg>
+          <img className="mb-4" src={sugerencias} alt="" width="150" height="150"/>
             <div className="card-body">
               
               <div className="d-flex justify-content-between align-items-center">
@@ -45,7 +50,7 @@ class CardImages extends Component {
         </div>
         <div className="col-md-4">
           <div className="card mb-4 shadow-sm">
-            <svg className="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></svg>
+          <img className="mb-4" src={informate} alt="" width="150" height="150"/>
             <div className="card-body">
               
               <div className="d-flex justify-content-between align-items-center">
@@ -61,7 +66,7 @@ class CardImages extends Component {
 
         <div className="col-md-4">
           <div className="card mb-4 shadow-sm">
-            <svg className="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></svg>
+          <img className="mb-4" src={fallas} alt="" width="150" height="150"/>
             <div className="card-body">
               
               <div className="d-flex justify-content-between align-items-center">
@@ -75,7 +80,8 @@ class CardImages extends Component {
         </div>
         <div className="col-md-4">
           <div className="card mb-4 shadow-sm">
-            <svg className="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></svg>
+          <img className="mb-4" src={notas} alt="" width="150" height="150"/>
+            
             <div className="card-body">
               
               <div className="d-flex justify-content-between align-items-center">
@@ -90,7 +96,7 @@ class CardImages extends Component {
         </div>
         <div className="col-md-4">
           <div className="card mb-4 shadow-sm">
-            <svg className="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></svg>
+          <img className="mb-4" src={administrador} alt="" width="150" height="150"/>
             <div className="card-body">
               
               <div className="d-flex justify-content-between align-items-center">

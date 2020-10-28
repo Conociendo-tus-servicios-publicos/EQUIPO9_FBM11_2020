@@ -5,8 +5,13 @@ import Cardpricing from '../components/CardPricing';
 
 function elimensajes () {
     return(
+        <>
+        <div>
+            <h1>hidsahh</h1>
+        </div>
      <CardImages2 />
-    )
+     </>
+    );
 }
 
 export default elimensajes;

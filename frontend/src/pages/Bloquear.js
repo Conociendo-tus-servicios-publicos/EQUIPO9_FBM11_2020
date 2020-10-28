@@ -10,14 +10,14 @@ function Bloquear () {
     return(
         <div>
         <section className="Bloquear">
-    <h1>Bloqueaar o eliminar usuarios </h1>
+    <h1>blloqueariweuhlrfuwej</h1>
     
   </section>
 
         <CardImages2 />
         </div>
         
-    )
+    );
    
 
 }
