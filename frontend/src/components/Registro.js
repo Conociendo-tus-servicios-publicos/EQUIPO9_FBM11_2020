@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import Logo from '../images/impag.png';
-import Registro from'../styles/Registro.css';
+import registro from'../styles/registro.css';
 import { Link } from 'react-router-dom';
 
 
-class registro extends Component {
+class Registro extends Component {
     
     render() { 
         return (
@@ -38,4 +38,4 @@ class registro extends Component {
     }
 }
 
-export default registro;
+export default Registro;

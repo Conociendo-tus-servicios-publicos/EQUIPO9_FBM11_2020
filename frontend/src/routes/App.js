@@ -21,6 +21,7 @@ import elimensajes from '../pages/elimensajes';
 const App = () =>{
     return(
       <BrowserRouter>
+      
         <Switch>
         <Route exact path="/iniciosesion" component={Register} />
         <Route exact path="/Registro" component={Registro} />
@@ -38,12 +39,9 @@ const App = () =>{
           <Informate/>
         </Route>
         <Route path="/sugerencias">
-          <Sugerencias/>
+          <Sugerencias/>  
         </Route>
-        <Route path="/notas" >
-          <Notas/>
         
-        </Route>
         <Route path="/botonbuscar" component={Buscar} />
         <Route path="/botonSugerencias" component={Sugerencias} />
         <Route path="/botonInformate" component={Informate} />
@@ -51,9 +49,9 @@ const App = () =>{
         <Route path="/botonNotas" component={Notas} />
         <Route path="/botonAdministrador" component={Administrador} />
 
-        <Route path="/botonDloquear" component={Bloquear} />
-        <Route path="/botonDDaños" component={Daños} />
-        <Route path="/botonDlimensajes" component={elimensajes} />
+        <Route path="/Bloquear" component={Bloquear} />
+        <Route path="/Daños" component={Daños} />
+        <Route path="/elimensajes" component={elimensajes} />
         <Route path="/menuadmin" component={menuadmin} />
         
         

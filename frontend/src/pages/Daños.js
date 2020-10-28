@@ -1,12 +1,21 @@
 import React from 'react';
-import CardImages2 from '../components/CardImages2';
+import Daños from '../styles/Daños.css';
 import Pricing from '../components/Pricing';
 import Cardpricing from '../components/CardPricing';
 
-function Daños () {
+function daños () {
     return(
-        <CardImages2 />
+
+        <div>
+        <section className="Daños">
+          <h1>Daños repotados</h1>
+    
+  </section>
+
+        
+        </div>
+        
     )
 }
 
-export default Daños;
+export default daños;

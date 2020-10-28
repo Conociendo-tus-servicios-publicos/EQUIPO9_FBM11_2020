@@ -1,16 +1,19 @@
 import React from 'react';
-import CardImages2 from '../components/CardImages2';
+import Eliminar from '../styles/elimensajes.css';
 import Pricing from '../components/Pricing';
 import Cardpricing from '../components/CardPricing';
 
 function elimensajes () {
     return(
-        <>
         <div>
-            <h1>hidsahh</h1>
+        <section className="Eliminar">
+          <h1>Eliminar mensajes </h1>
+    
+  </section>
+
+        
         </div>
-     <CardImages2 />
-     </>
+     
     );
 }
 
