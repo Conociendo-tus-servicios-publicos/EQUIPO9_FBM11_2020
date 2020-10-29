@@ -22,7 +22,7 @@ class CardImages2 extends Component {
               
               <div className="d-flex justify-content-between align-items-center ">
                 <div className="btn-group">
-                <Link to='/Bloquear'> <button  type="button" className="btn btn-sm btn-outline-secondary">Bloquear o eliminar usuarios</button></Link>
+                <Link to='/Bloquear'> <button  type="button" className="btn btn-sm btn-outline-primary">Bloquear o eliminar usuarios</button></Link>
                   
                 </div>
                 
@@ -37,7 +37,7 @@ class CardImages2 extends Component {
               
               <div className="d-flex justify-content-between align-items-center">
                 <div className="btn-group">
-                <Link to='/elimensajes'><button type="button" className="btn btn-sm btn-outline-secondary">Eliminar mensajes</button></Link>
+                <Link to='/elimensajes'><button type="button" className="btn btn-sm btn-outline-primary">Eliminar mensajes</button></Link>
                   
                 </div>
                 
@@ -52,7 +52,7 @@ class CardImages2 extends Component {
               
               <div className="d-flex justify-content-between align-items-center">
                 <div className="btn-group">
-                <Link to='/Daños'><button type="button" className="btn btn-sm btn-outline-secondary">Daños reportados</button></Link>
+                <Link to='/Daños'><button type="button" className="btn btn-sm btn-outline-primary">Daños reportados</button></Link>
                   
                 </div>
                

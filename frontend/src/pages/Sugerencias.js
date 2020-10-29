@@ -10,7 +10,7 @@ function Sugerencias (){
 <section className="sugerir">
           
 <section >
-          <section className="principal">
+          <section className="sugerir">
               
               <h1>Sugerencias </h1>
             </section>

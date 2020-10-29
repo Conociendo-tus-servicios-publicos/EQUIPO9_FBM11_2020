@@ -16,8 +16,9 @@ function Bloquear () {
         <section className="cont2">
           <h1>Bloquear usuarios</h1>
           <img className="img"   src={usuarios}/> 
-          <input type="submit"value="Cancelar"/>
-          <input type="submit"value="Confirmar"/>
+          <button type="button" className="btn btn-outline-primary my 2 my-sm-0 form-control1 m-2" >Cancelar</button>
+          <button type="button" className="btn btn-outline-primary my 2 my-sm-0 form-control1 m-2">Confirmar</button>
+       
         </section>
           
 

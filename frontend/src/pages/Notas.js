@@ -11,9 +11,10 @@ function Notas () {
     <section className="notas">
     
           <h1>Notas</h1>
+          <div className="col-sm-12">
           <div className="table-responsive">
           
-          <table className="table table-hover">
+          <table className="table table-hover table-condensed table-bordered">
             <thead className="table table-primary">
             <tr >
             <th>Versión</th>
@@ -25,15 +26,16 @@ function Notas () {
           <tr>
               <td>V 1.0.2.</td>
               <td>Inicio paginas</td>
-              <td>Paginas en procesos</td>
+              <td>Paginas en proceso.</td>
             </tr>
             <tr>
               <td>V 1.0.1.</td>
               <td>Complementos</td>
-              <td>Se comienza a habilitar la pagina</td>
+              <td>Se comienza a habilitar la pagina.</td>
             </tr>
           </tbody>
           </table>
+         </div>
          </div>
         </section>
 
