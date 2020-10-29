@@ -1,14 +1,12 @@
 import React from 'react';
 import pricing from '../components/Pricing';
 import cardpricing from '../components/CardPricing';
-import buscar from '../styles/buscar.css';
-import Logo from '../images/impag.png';
-import Luz from '../images/luz.jpg';
+import Buscar from '../styles/Buscar.css';
 import aguas from '../images/aguas.jpg';
 
 
 
-function Buscar (){
+function buscar1 (){
     return (
         <div>
              <section className="buscar">
@@ -34,4 +32,4 @@ function Buscar (){
     );
     
 }
-export default Buscar;
+export default buscar1;

@@ -1,5 +1,22 @@
-.Bloquear h1{
+.Bloquear {
     color: #007bff;
     text-align: center;
-    padding: 70px 200px 50px 200px  ;
+    padding: 30px 200px 50px 200px  ;
+   
+}
+.Bloquear img{
+    margin: auto;
+    width:200px ;
+    height:200px ;
+}
+.cont2 {
+    color: #007bff;
+    text-align: center;
+    padding: -50px 200px 50px 200px  ;
+}
+
+.cont2 img{
+    margin: auto;
+    width:200px ;
+    height:200px ;
 }
