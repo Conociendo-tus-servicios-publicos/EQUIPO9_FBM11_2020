@@ -51,6 +51,7 @@ const App = () =>{
         <Route path="/botonFallas" component={Fallas} />
         <Route path="/botonnotas" component={Notas} />
         <Route path="/botonAdministrador" component={Administrador} />
+        <Route path="/volver" component={elimensajes} />
 
         <Route path="/Bloquear" component={Bloquear} />
         <Route path="/Daños" component={Daños} />

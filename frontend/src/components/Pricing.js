@@ -35,7 +35,7 @@ const Pricing = () => {
               <img className="Agua" src={Agua}/>
               <img className="Gas" src={Gas}/>
            </section>
-             
+           
           
         
       </div>

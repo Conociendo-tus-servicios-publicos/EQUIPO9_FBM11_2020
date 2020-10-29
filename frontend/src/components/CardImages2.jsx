@@ -4,6 +4,7 @@ import bloquear_usuarios from '../images/bloquear_usuarios.png';
 import eliminar_mensajes from '../images/eliminar_mensajes.png';
 import daños_reportados from '../images/daños_reportados.png';
 
+
 class CardImages2 extends Component {
     constructor(props) {
         super(props);
@@ -11,7 +12,8 @@ class CardImages2 extends Component {
     }
     render() { 
         return ( 
-
+<>
+<volver/>
  <div className="album py-5 bg-light">
     <div className="container">
       <div className="row">
@@ -39,8 +41,7 @@ class CardImages2 extends Component {
                 <div className="btn-group">
                 <Link to='/elimensajes'><button type="button" className="btn btn-sm btn-outline-primary">Eliminar mensajes</button></Link>
                   
-                </div>
-                
+                </div>  
               </div>
             </div>
           </div>
@@ -55,20 +56,16 @@ class CardImages2 extends Component {
                 <Link to='/Daños'><button type="button" className="btn btn-sm btn-outline-primary">Daños reportados</button></Link>
                   
                 </div>
-               
               </div>
             </div>
           </div>
         </div>
-
-        
-        
-       
-        
       </div>
     </div>
+    <a className="btn btn-outline-primary my 2 my-sm-0 form-control1 m-2" type="submit" href="javascript:history.back()">Volver</a>
   </div>
-         );
+  
+         </>);
     }
 }
  

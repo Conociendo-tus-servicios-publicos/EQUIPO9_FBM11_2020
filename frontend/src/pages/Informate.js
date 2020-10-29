@@ -23,6 +23,7 @@ function Informate (){
            <img className="img"   src={Gasinfo}/>   
            <img className="img"  src={luzinfo}/>
            </section>
+           <a className="btn btn-outline-primary my 2 my-sm-0 form-control1 m-2" type="submit" href="javascript:history.back()">Volver</a>
     </div>
       
     );

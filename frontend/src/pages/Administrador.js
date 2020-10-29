@@ -25,6 +25,7 @@ class Administrador extends Component {
     <button className="btn btn-lg btn-primary btn-flex mb-3 col-6" type="submit">Ingresar</button>
     </Link>
     </form>
+    
   </div>
           );
     }

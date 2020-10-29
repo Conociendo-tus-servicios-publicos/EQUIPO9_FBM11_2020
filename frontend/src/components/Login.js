@@ -21,11 +21,11 @@ class Login extends Component {
     </label>
     </div>
     <Link to="/principal" className="text-decoration-none">
-    <button className="btn btn-lg btn-primary btn-flex mb-3 col-6" type="submit">Iniciar Sesión</button>
+    <button className="btn btn-lg btn-primary btn-flex mb-3 col-7" type="submit">Iniciar Sesión</button>
     </Link>
 
     <Link to="/Registro" className="text-decoration-none">
-    <button className="btn btn-lg btn-primary btn-flex mb-3 col-8" type="submit">Registrate</button>
+    <button className="btn btn-lg btn-primary btn-flex mb-3 col-7" type="submit">Registrate</button>
     </Link>
     <p className="mt-5 mb-3 text-muted">© 2020</p>
     </form>
