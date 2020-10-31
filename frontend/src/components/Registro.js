@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Logo from '../images/impag.png';
-import Registro from'../styles/Registro.css';
+import '../styles/Registro.css';
 import { Link } from 'react-router-dom';
 
 
@@ -8,17 +8,16 @@ class Registro1 extends Component {
     
     render() { 
         return (
-
    <div className="container align-items-center mt-5 text-center">
     <form className="form-signin text-center align-items-center col -1">
-    <img className="mb-4" src={Logo} alt="" width="80" height="80"/>
-    <h1 className="h3 mb-5 font-weight-normal text-center text-primary">Registro</h1>
-    <label for="inputPassword" className="sr-only">Nombre/s</label>
-    <input type="password" id="inputname" className="form-control mb-3 " placeholder="Nombre/s" required=""/>
-    <label for="inputPassword" className="sr-only">Apellido/s</label>
-    <input type="password" id="inputlastname" className="form-control mb-3 " placeholder="Apellido/s" required=""/>
-    <label for="inputPassword" className="sr-only">Usuario</label>
-    <input type="password" id="inputusers" className="form-control mb-3 " placeholder="Usuario" required=""/>
+    <img className="mb-4" src={Logo} alt="" width="150" height="150"/>
+    <h1 className="h1 mb-5 font-weight-normal text-center text-primary">Registro</h1>
+    <label for="inputname1" className="sr-only">Nombre/s</label>
+    <input type="name" id="inputname" className="form-control mb-3 " placeholder="Nombre/s" required=""/>
+    <label for="inputlastname" className="sr-only">Apellido/s</label>
+    <input type="lastname" id="inputlastname" className="form-control mb-3 " placeholder="Apellido/s" required=""/>
+    <label for="inputusers" className="sr-only">Usuario</label>
+    <input type="users" id="inputusers" className="form-control mb-3 " placeholder="Usuario" required=""/>
     <label for="inputEmail" className="sr-only mb-3">Correo electrónico</label>
     <input type="email" id="inputEmail" className="form-control mb-3" placeholder="Correo electrónico" required="@" autofocus=""/>
     <label for="inputPassword" className="sr-only">Contraseña</label>

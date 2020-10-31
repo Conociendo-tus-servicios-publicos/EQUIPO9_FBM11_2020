@@ -3,6 +3,7 @@ import Eliminar from '../styles/elimensajes.css';
 import Pricing from '../components/Pricing';
 import Cardpricing from '../components/CardPricing';
 
+
 function elimensajes () {
     return(
         <div>

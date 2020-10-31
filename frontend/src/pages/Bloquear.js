@@ -5,6 +5,7 @@ import bloquear from '../styles/Bloquear.css';
 import usuarios from '../images/usuarios.png';
 
 
+
 function Bloquear () {
 
     return(

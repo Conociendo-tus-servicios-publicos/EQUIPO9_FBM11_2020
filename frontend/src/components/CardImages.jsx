@@ -108,6 +108,34 @@ class CardImages extends Component {
             </div>
           </div>
         </div>
+        <div className="col-md-4">
+          <div className="card mb-4 shadow-sm">
+          <img className="mb-4" src={administrador} alt="" width="150" height="150"/>
+            <div className="card-body">
+              
+              <div className="d-flex justify-content-between align-items-center">
+                <div className="btn-group">
+                <Link to='/Perfil'><button type="button" className="btn btn-sm btn-outline-primary">Información de tu perfil</button></Link>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="col-md-4">
+          <div className="card mb-4 shadow-sm">
+          <img className="mb-4" src={administrador} alt="" width="150" height="150"/>
+            <div className="card-body">
+              
+              <div className="d-flex justify-content-between align-items-center">
+                <div className="btn-group">
+                <Link to='/confiperfil'><button type="button" className="btn btn-sm btn-outline-primary">Configuarión de tu perfil</button></Link>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
         
       </div>
     </div>

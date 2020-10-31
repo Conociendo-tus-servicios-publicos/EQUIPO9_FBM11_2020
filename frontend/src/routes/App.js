@@ -15,7 +15,12 @@ import menuadmin from '../pages/menuadmin';
 import Daños from '../pages/Daños';
 import Bloquear from '../pages/Bloquear';
 import elimensajes from '../pages/elimensajes';
-
+import cambiarcontra from '../pages/cambiarcontra';
+import cambiarcorreo from '../pages/cambiarcorreo';
+import cambiarusuario from '../pages/cambiarusuario';
+import editarfoto from '../pages/editarfoto';
+import Perfil from '../pages/Perfil';
+import confiperfil from '../pages/confiperfil';
 
 
 const App = () =>{
@@ -57,6 +62,17 @@ const App = () =>{
         <Route path="/Daños" component={Daños} />
         <Route path="/elimensajes" component={elimensajes} />
         <Route path="/menuadmin" component={menuadmin} />
+        <Route path="/Pefil" component={Perfil} />
+        <Route path="/confiperfil" component={confiperfil} />
+        
+        <Route path="/contra" component={cambiarcontra} />
+        <Route path="/usuario" component={cambiarusuario} />
+        <Route path="/correo" component={cambiarcorreo} />
+        <Route path="/foto" component={editarfoto} />
+        
+        <Route path="/Perfil">
+          <Perfil/>  
+        </Route>
         
         
         </Layout>

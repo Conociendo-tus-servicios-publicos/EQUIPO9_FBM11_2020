@@ -3,6 +3,7 @@ import Logo from '../images/impag.png';
 import '../styles/login.css';
 import { Link } from 'react-router-dom';
 
+
 class Login extends Component {
     
     render() { 

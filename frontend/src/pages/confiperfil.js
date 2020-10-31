@@ -1,12 +1,13 @@
 import React from 'react';
-import CardImages2 from '../components/CardImages2';
+import CardImages3 from '../components/CardImages3';
 import Pricing from '../components/Pricing';
 import CardPricing from '../components/CardPricing';
 
-function menuadmin () {
+
+function confiperfil() {
     return(
-     <CardImages2 />
+     <CardImages3 />
     )
 }
 
-export default menuadmin;
+export default confiperfil;

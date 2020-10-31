@@ -22,7 +22,10 @@ export default function Header (props) {
             })}
             </nav>
         <Link to="/iniciosesion" className="btn btn-outline-primary" href="#">{props.infoButton}</Link>
+        
         </div>
+       
+        
         </>
     )
 };
