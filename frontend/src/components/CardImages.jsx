@@ -129,7 +129,7 @@ class CardImages extends Component {
               
               <div className="d-flex justify-content-between align-items-center">
                 <div className="btn-group">
-                <Link to='/confiperfil'><button type="button" className="btn btn-sm btn-outline-primary">Configuarión de tu perfil</button></Link>
+                <Link to='/confiperfil'><button type="button" className="btn btn-sm btn-outline-primary">Configuración de tu perfil</button></Link>
                 </div>
                 
               </div>

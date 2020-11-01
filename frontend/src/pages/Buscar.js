@@ -1,7 +1,7 @@
 import React from 'react';
 import pricing from '../components/Pricing';
 import cardpricing from '../components/CardPricing';
-import Buscar from '../styles/Buscar.css';
+import  '../styles/buscar.css';
 import aguas from '../images/aguas.jpg';
 
 
