@@ -24,7 +24,7 @@ function elimensajes () {
               </thead>
               <tbody>
             <tr>
-                <td>Tú no sabes esa información estupida de mierda.</td>
+                <td>Tú no sabes esa información est***** de mi****.</td>
 
                 
               <td>
@@ -32,7 +32,7 @@ function elimensajes () {
               </td>
               </tr>
               <tr>
-                <td>Primero aprende a escribir malparida, luego de eso opinas al respecto, ok?</td>
+                <td>Primero aprende a escribir mal******, luego de eso opinas al respecto, ok?</td>
 
                 
               <td>

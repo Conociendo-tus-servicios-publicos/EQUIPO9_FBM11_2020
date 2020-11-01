@@ -1,8 +1,10 @@
 import React from 'react';
 import pricing from '../components/Pricing';
 import cardpricing from '../components/CardPricing';
-import  '../styles/buscar.css';
-import aguas from '../images/aguas.jpg';
+import  '../styles/Buscar.css';
+import Agua from '../images/agua.jpg';
+import Luz from '../images/luz.jpg';
+import Gas from '../images/Gas.jpg';
 
 
 
@@ -23,11 +25,12 @@ function buscar1 (){
         
     <h3>En este campo de texto puedes buscar la zona donde estas ubicado.</h3>
     </section>
-
-    <section className="parrafo img">
-    <img className="Aguas" src={aguas}/>
-      
-    </section>
+    <section className='imagenes'>
+              <img className="Luz" src={Luz}/>
+              <img className="Agua" src={Agua}/>
+              <img className="Gas" src={Gas}/>
+           </section>
+    
     <a className="btn btn-outline-primary my 2 my-sm-0 form-control1 m-2" type="submit" href="javascript:history.back()">Volver</a>
     </div>
 
