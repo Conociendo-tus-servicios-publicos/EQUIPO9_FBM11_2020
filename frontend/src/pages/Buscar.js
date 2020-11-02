@@ -1,7 +1,7 @@
 import React from 'react';
 import pricing from '../components/Pricing';
 import cardpricing from '../components/CardPricing';
-import  '../styles/Buscar.css';
+import  '../styles/buscar.css';
 import Agua from '../images/agua.jpg';
 import Luz from '../images/luz.jpg';
 import Gas from '../images/Gas.jpg';
@@ -21,9 +21,9 @@ function buscar1 (){
       <input type="Buscar" id="inputbuscar" className="form-control1 m-2" placeholder="Buscar" autofocus=""/>
       <button className="btn btn-outline-primary my 2 my-sm-0" type="submit">Buscar</button>
     </form>
-    <section className="Buscar">
+    <section className="Busc">
         
-    <h3>En este campo de texto puedes buscar la zona donde estas ubicado.</h3>
+    <p>En este campo de texto puedes buscar la zona donde estas ubicado.</p>
     </section>
     <section className='imagenes'>
               <img className="Luz" src={Luz}/>

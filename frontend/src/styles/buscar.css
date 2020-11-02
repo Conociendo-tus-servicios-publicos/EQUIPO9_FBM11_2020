@@ -1,12 +1,11 @@
-.Buscar h1{
+.Busc h1{
     color: #007bff;
     text-align: center;
     padding: 70px 200px 50px 200px  ;
 
 }
 
-.Buscar h3{
-    color: black;
+.Buscar p{
     text-align: center;
     padding: 70px 200px 50px 200px  ;
 }
@@ -40,4 +39,22 @@
 }
 .imagenes{
     margin: 70px 0px 180px 0px;
+}
+@media screen and (max-width: 480px){
+    .Buscar{
+        padding: 30px 100px 30px 100px   ;
+    }
+    .Busc{
+        padding: 10px 20px 10px 20px;
+        margin: 10px 20px 10px 20px;
+    }
+   .imagenes{
+    flex-direction: column;
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 300px;
+    height: 200px;
+    margin: 10px 20px 10px 20px;
+    padding:10px 20px 10px 0px;
+   }
 }

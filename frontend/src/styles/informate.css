@@ -3,7 +3,7 @@
     text-align: center;
   
 }
-.parrafo1{
+.parraf{
     padding: 40px 200px 0px 200px  ;
 }
 .informa{
@@ -11,7 +11,7 @@
    
 }
 
-.img{
+.imagen img{
     width: 400px;
     height: 300px;
     margin-left: 10px;
@@ -19,6 +19,20 @@
     padding: 20px 30px 10px -0px  ; 
     display: flex;
 }
-.img{
+.imagen img{
     margin: 40px 0px 180px 100px;
+}
+@media screen and (max-width: 480px){
+    .parraf{
+        padding: 10px 20px 10px 20px;
+        margin: 10px 20px 10px 20px;
+    }
+    .imagen img{
+       margin-top: 0px;
+       margin-left: 0px;
+       width: 300px;
+       height: 200px;
+       margin: 10px 20px 10px 20px;
+       padding:10px 20px 10px 0px;
+    }
 }
