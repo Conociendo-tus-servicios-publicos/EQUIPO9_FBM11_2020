@@ -21,6 +21,7 @@
 }
 .imagen img{
     margin: 40px 0px 180px 100px;
+    display: flex;
 }
 @media screen and (max-width: 480px){
     .parraf{
